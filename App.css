@@ -1,0 +1,78 @@
+.AppCalculator {
+  text-align: center;
+  max-width: 275px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.displayValue {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  font-size: 4vw;
+  background-color: rgb(72, 27, 27);
+  color: aliceblue;
+}
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  width: 100%;
+  height: 80px;
+}
+.btnC {
+  width: 50%;
+  height: 100%;
+  font-size: 3vw;
+  border-color: brown;
+}
+.btnP {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  background-color: brown;
+  color: aliceblue;
+}
+.btnE {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  background-color: brown;
+  color: aliceblue;
+}
+.btnMU {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  color: aliceblue;
+  background-color: brown;
+}
+.btnD {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  color: aliceblue;
+  background-color: brown;
+}
+.btnM {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  color: aliceblue;
+  background-color: brown;
+}
+
+.btn7,
+.btn8,
+.btn9,
+.btn4,
+.btn5,
+.btn6,
+.btn1,
+.btn2,
+.btn3 {
+  width: 25%;
+  height: 100%;
+  font-size: 3vw;
+  border-color: brown;
+}
