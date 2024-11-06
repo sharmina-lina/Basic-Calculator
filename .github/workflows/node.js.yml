@@ -8,10 +8,10 @@ on:
 
 jobs:
     build:
-        runs-on: self-hosted
+        runs-on: ubuntu-22.0.4
         strategy:
             matrix:
-                node-version: [22.x]
+                node-version: [18.x]
                 # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
         steps:
