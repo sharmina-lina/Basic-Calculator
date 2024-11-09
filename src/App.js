@@ -63,6 +63,7 @@ function AppCalculator() {
 
   return (
     <div className="AppCalculator">
+      <h1>Basic-Calculator</h1>
       <div className="displayValue">{displayValue}</div>
       <div className="row-1">
         <button className="btnC" onClick={handleClearClick}>
