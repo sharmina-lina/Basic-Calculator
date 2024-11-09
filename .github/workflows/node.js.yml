@@ -83,7 +83,7 @@ jobs:
             tags: sharmina/basic-calculator_v1:latest  # Replace with your Docker Hub username and repo name
   
     deploy:
-        runs-on: ubuntu-latest
+        runs-on: self-hosted
         needs: build_docker_image  # This job will run only after the build job completes successfully
         strategy:
           matrix:
