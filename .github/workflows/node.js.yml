@@ -108,12 +108,13 @@ jobs:
               docker pull sharmina/basic-calculator_v1:latest
           
               # Stop and remove any existing container
+              
               docker stop basic-calculator || true
               docker rm basic-calculator || true
                       
           
               # Run the new container
-              docker run -d -p 3000:3000 --name basic-calculator sharmina/basic-calculator_v1:latest
+              docker run -d -p 4000:4000 --name basic-calculator sharmina/basic-calculator_v1:latest
               exit
             EOF
                   
